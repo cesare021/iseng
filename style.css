@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.song {
+    visibility: hidden;
+}
+
+.container {
+    height: 100vh;
+    margin: 0, auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;   
+}
+
+.container h1 {
+    font-size: 100px;
+}
+
+.container h1 span {
+    color: rgba(255, 0, 0, 0.658);
+}
+
+p {
+    font-size: 32px;
+}
+
+.containter > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
+
+.btn1 {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 248, 59, 0.699);
+    color: white;
+    padding: 0.4rem 0.3rem;
+    border-radius: 12px;
+    position: relative;
+    right: 26px;
+    font-size: 20px;
+}
+.btn2 {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 0, 0, 0.753);
+    color: white;
+    padding: 0.4rem 0.3rem;
+    border-radius: 12px;
+    position: relative;
+    left: 26px;
+    font-size: 20px;
+}
+
+.p6 img {
+    display: relative;
+    height: 500px;
+    max-width: 100%;
+    /*height: auto*/
+}
+
+#replayclick {
+    cursor: pointer;
+}
+
+#whatsapp {
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-height: 1000px) {
+    .six .hat {
+      left: 40%;
+    }
+  }
+  
+  @media screen and (max-height: 800px) {
+    .six .hat {
+      left: 37%;
+    }
+  }
+  
+  @media screen and (max-height: 700px) {
+    .six .hat {
+      left: 32%;
+    }
+  }
+  
+  @media screen and (max-height: 850px) and (max-width: 450px) {
+    .six .hat {
+      left: 32%;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .container {
+      width: 90%;
+    }
+  
+    .four .text-box {
+      width: 90%;
+    }
+  
+    .text-box .fake-btn {
+      bottom: -38px;
+      right: 5px;
+    }
+  
+    .idea-5 span {
+      display: block;
+    }
+  
+    .idea-6 span {
+      font-size: 10rem;
+    }
+  
+    .six .hat {
+      /* top: -20px; */
+      width: 50px;
+    }
+  
+    .wish-hbd {
+      font-size: 2.2em;
+    }
+  
+    .wish h5 {
+      font-size: 1.4rem;
+    }
+  
+    .nine p {
+      font-size: 1.5rem;
+      font-weight: lighter;
+    }
+  }
